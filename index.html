@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<style>
+    #Login-form
+    {
+        width: 400px;
+        height: 300px;
+        margin-top: 50px;
+        margin-left: 80px;
+        padding: 20px;
+        border: 2px solid black;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px
+        rgba(30,50,40,0.5);
+    }
+    h1
+    {
+        text-align: center;
+        margin: 0 0 20px;
+        text-shadow: 2px 2px 2px rgba(255, 0, 0, 1)
+    }
+    input {
+        margin: 5px 0;
+        padding: 15px;
+        width: 90%;
+        border: 1px solid grey;
+        border-radius: 20px;
+    }
+    #login-button {
+        margin: 20px 0 0 0;
+        padding: 15px 0px;
+        width: 20%;
+        height: 20%;
+        border: 1px solid hsla(0,72%,27%,0);
+        font: bold 1.2em myFirstFont;
+        color: #fff;
+        background-color: #4d90fe;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px rgba(30,50,40,0.5);
+        input:focus
+        {
+            outline: 0;
+            box-shadow: 5px 5px 5px rgba(30,50,40,0.5);
+        }
+    }
+</style>
+<body>
+    <form id="Login-form">
+        <h1>Login</h1>
+        <input type="email" placeholder="Email" required="">
+        <input type="password" placeholder="Enter your password">
+        <input id="login-button" type="submit" value="Login">
+    </input> <br><br>
+    
+    <a href="#">forgot password?</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="#">Create account</a>
+    </form>
+</body>
+</html>
